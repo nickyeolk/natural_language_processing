@@ -1,1 +1,2 @@
-# natural_language_processint
+# natural_language_processing
+The use of LSTM in week5_NLP_student takes in 10 one-hot-encoded characters and makes a prediction. The LSTM in week5_just_Q4.ipynb trains with one character input at a time, and predicts the 11th character. It seems like this is the more correct approach, since just sliding in 10 characters doesn't seem very recurrent. It seems to give nicer results, but that could be just because I have trained it for twice as many samplings since it is very fast.
